@@ -1,9 +1,7 @@
 .github/**
 
-app.css
-app.js
-index.html
 chicago.csv
 washington.csv
 New_york_city.csv
+#this is the bikeshare template
 bikeshare_2.py

@@ -103,16 +103,16 @@ def station_stats(df):
     print('The most common start station is : {}'.format(df['Start Station'].mode()[0]))
 
     print('The most common end station is :{}'.format(df['End Station'].mode()[0]))
-<<<<<<< HEAD
+
 
     df['route']-df['Start Station']+','+df['End Station']
-||||||| 9335ce4
+
 
     df['route']-df['Start Station']+','+df['End Station']
-=======
+
 
     most_popular_trip = df.groupby(['Start Station', 'End Station']).size().idxmax()
->>>>>>> Refractoring
+
     print ('The most common route is:{}'.format(df['route'].mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -138,13 +138,11 @@ def user_stats(df,city):
     start_time = time.time()
 
     print(df['User typer'].value_counts().to_frame())
-<<<<<<< HEAD
 
-||||||| 9335ce4
 
-=======
+
     pd.set_option('display.max_columns',200)
->>>>>>> Refractoring
+
     if city != 'washington':
         print(df['gender'].value_counts().to_frame())
 

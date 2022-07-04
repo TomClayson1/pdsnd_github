@@ -9,6 +9,7 @@ Bikeshare Analysis
 ### Description
 Providing and interactive analysis of bikeshare data from three cities in the United States, Washington, New York City and Chicago. This was made possible with python
 and gives the user the opportunity to select what data they would like and how much to see.
+Data is provided on timescales across select months when data was acquired.
 
 ### Files used
 Bikeshare_project.py

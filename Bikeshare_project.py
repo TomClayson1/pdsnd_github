@@ -17,7 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data')
     city = input("choose a city name out of the options listed from the dataset (chicago, new york city, washington):").lower()
-    while city not in CITY_DATA.keys():
+    while city not in CITY_DATA:
       print('Please enter a valid city available from the dataset')
       city = input('choose a city name(s) from the dataset (chicago, new york city, washington):')
 
